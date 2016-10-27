@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:switchbutton="http://schemas.android.com/apk/res/com.zero.mbutton"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ResAuto">
+
+    <ui.SwitchButton
+        android:id="@+id/switchbutton"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        switchbutton:switch_background="@drawable/switch_background"
+        switchbutton:switch_button="@drawable/slide_button"
+        switchbutton:switch_state="false"
+
+         />
+</RelativeLayout>
